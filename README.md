@@ -13,18 +13,7 @@ This repository contains an automated system that monitors resource usage on a l
 ## Architecture
 The system follows a hybrid cloud architecture with components distributed between the local environment and GCP:
 
-```
-┌─────────────────────┐                      ┌─────────────────────┐
-│   Local VM (VBox)   │                      │     GCP Instance    │
-│                     │                      │                     │
-│ ┌─────────────────┐ │    Auto-Migration    │ ┌─────────────────┐ │
-│ │ Resource Monitor│ │─────────────────────▶│ │  Node.js App    │ │
-│ └─────────────────┘ │                      │ └─────────────────┘ │
-│ ┌─────────────────┐ │                      │                     │
-│ │   Node.js App   │ │                      │                     │
-│ └─────────────────┘ │                      │                     │
-└─────────────────────┘                      └─────────────────────┘
-```
+![Local VM to Cloud Auto-Scaling Architecture](https://raw.githubusercontent.com/yourusername/local-vm-cloud-autoscaling/main/architecture-diagram.png)
 
 ## Prerequisites
 - VirtualBox (6.0+)
