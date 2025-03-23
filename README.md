@@ -1,7 +1,5 @@
 # B22CS073_VCC_Assignment3
-# Local VM to Cloud Auto-Scaling Implementation Report
 
-## Executive Summary
 
 This report details the implementation of an automated system that monitors resource usage on a local virtual machine and triggers migration to Google Cloud Platform (GCP) when resource utilization exceeds a predefined threshold of 75%. The solution employs bash scripting for resource monitoring, GCP's Compute Engine for cloud infrastructure, and a sample Node.js application to demonstrate the auto-scaling functionality. This implementation showcases a hybrid cloud approach that optimizes resource utilization by leveraging both local infrastructure and cloud resources dynamically based on actual demand.
 
