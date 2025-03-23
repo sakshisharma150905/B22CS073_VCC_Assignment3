@@ -12,6 +12,8 @@ This repository contains an automated system that monitors resource usage on a l
 
 ## Architecture
 The system follows a hybrid cloud architecture with components distributed between the local environment and GCP:
+![Image Description](arch-image.png)
+
 
 ```
 ┌─────────────────────┐                      ┌─────────────────────┐
