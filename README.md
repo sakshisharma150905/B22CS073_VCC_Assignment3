@@ -13,7 +13,8 @@ This repository contains an automated system that monitors resource usage on a l
 ## Architecture
 The system follows a hybrid cloud architecture with components distributed between the local environment and GCP:
 
-![Local VM to Cloud Auto-Scaling Architecture](https://github.com/yourusername/local-vm-cloud-autoscaling/raw/main/images/architecture-diagram.png)
+![Image Description](images/architecture-image.png)
+
 
 ## Prerequisites
 - VirtualBox (6.0+)
