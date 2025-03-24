@@ -1,8 +1,3 @@
-Here is a README file for your project that will appear as normal text when pasted into GitHub and committed:
-
----
-
-```markdown
 # Local VM to Cloud Auto-Scaling Implementation
 
 ## Author
@@ -71,7 +66,6 @@ VBoxManage createhd --filename "AutoScaleVM.vdi" --size 20000
 VBoxManage storagectl "AutoScaleVM" --name "SATA Controller" --add sata
 VBoxManage storageattach "AutoScaleVM" --storagectl "SATA Controller" --port 0 --device 0 --type hdd --medium "AutoScaleVM.vdi"
 VBoxManage storageattach "AutoScaleVM" --storagectl "SATA Controller" --port 1 --device 0 --type dvddrive --medium ubuntu-22.04-desktop-amd64.iso
-```
 
 ---
 
